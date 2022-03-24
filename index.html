@@ -7,23 +7,20 @@
     <!--bootstrap-->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+      rel="stylesheet"    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+  <body class="bg-light">
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -34,50 +31,50 @@
       <!--9 to 10 am-->
       <form class="row" id="hr9">        
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 9a <br> 10a </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-9"></input>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-9"></textarea>
         <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
       </form>
       <!--10 to 11 am-->
       <form class="row bg-white" id="hr10">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 10a <br> 11a </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-10"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-10"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-10"></button>
       </form>
       <!--11 to 12 pm-->
       <form class="row bg-white" id="hr11">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 11a <br> 12p </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-11"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-11"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-11"></button>
       </form>
       <!--12 to 1 pm-->
       <form class="row bg-white" id="hr12">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 12p <br> 1p </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-12"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-12"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-12"></button>
       </form>
       <!--1 to 2 pm-->
       <form class="row bg-white" id="hr13">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 1p <br> 2p </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-13"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-13"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-13"></button>
       </form>
       <!--2 to 3 pm-->
       <form class="row bg-white" id="hr14">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 2p <br> 3p </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-14"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-14"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-14"></button>
       </form>
       <!--3 to 4 pm-->
       <form class="row bg-white" id="hr15">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 3p <br> 4p </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-15"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-15"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-15"></button>
       </form>
       <!--4 to 5 pm-->
       <form class="row bg-white" id="hr16">
         <label class="col-lg-1 col-md-2 col-sm-4 border rounded"> 4p <br> 5p </label>
-        <input class="col-lg-10 col-md-8 col-sm-4 border" id="user-info-16"></input>
-        <button class="col-lg-1 col-md-2 col-sm-4 border rounded fas fa-save" type="submit" id="btn-9"></button>
+        <textarea class="col-lg-10 col-md-8 col-sm-4 border" id="content-16"></textarea>
+        <button class="col-lg-1 col-md-2 col-sm-4 border rounded " type="submit" id="btn-16"></button>
       </form>
     </div>
     <!--jQuery-->
@@ -85,6 +82,6 @@
     <!--Moment-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!--internal js-->
-    <script src="./assets/script.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
