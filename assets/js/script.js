@@ -21,13 +21,19 @@ $(document).ready(function(){
     let currentHour = parseInt(moment().format('k'));
     //for loop to check time and compare it to the block where text is saved
     for (let i = 0; i < rows.length; i++){
+        console.log(rows.eq(i).attr('id'))
+        //if statement to add the ids past present and future
         if(parseInt(rows.eq(i).attr('id')) < currentHour){
             rows.eq(i).children().eq(1).addClass('past');
+            console.log(past);
         } else if(parseInt(rows.eq(i).attr('id')) > currentHour) {
             rows.eq(i).children().eq(1).addClass('future');
+            console.log(future);
         } else if(parseInt(rows.eq(i).attr('id')) === currentHour){
             rows.eq(i).children().eq(1).addClass('present');
+            console.log(present);
         }
+        
     };
     
     //loading saved data for each hour from localStorage    
