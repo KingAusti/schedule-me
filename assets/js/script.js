@@ -25,13 +25,13 @@ $(document).ready(function(){
         //if statement to add the ids past present and future
         if(parseInt(rows.eq(i).attr('id')) < currentHour){
             rows.eq(i).children().eq(1).addClass('past');
-            console.log(past);
+            console.log('past');
         } else if(parseInt(rows.eq(i).attr('id')) > currentHour) {
             rows.eq(i).children().eq(1).addClass('future');
-            console.log(future);
+            console.log('future');
         } else if(parseInt(rows.eq(i).attr('id')) === currentHour){
             rows.eq(i).children().eq(1).addClass('present');
-            console.log(present);
+            console.log('present');
         }
         
     };

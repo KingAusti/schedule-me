@@ -28,10 +28,24 @@ WHEN I refresh the page
 THEN the saved events persist
 <br>
 
+## Languages Used
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Moment.js
+* Boostrap
+* Google Fonts
 ## Screenshot
+
+![screenshot](./assets/images/schedule-me-screenshot.png)
 
 ## Links
 
+[Deployed Application](https://kingausti.github.io/schedule-me/)
+
+[Challenge Repository](https://github.com/KingAusti/schedule-me)
+
 ## Credits
 
-Made by Austin Henry
+Made by [Austin Henry](https://github.com/KingAusti)
